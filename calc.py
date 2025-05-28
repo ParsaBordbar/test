@@ -7,8 +7,8 @@ def find(list):
     for i in list: 
         if (i == 90):
             print("Found")
-        else: 
-            print("Not Found")
+            return
+        print("Not Found")
 
 find(numbers_list)
 
