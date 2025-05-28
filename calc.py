@@ -12,6 +12,11 @@ def find(list):
 
 find(numbers_list)
 
-def sum(a, b):
-    return a + b
+def sum(list):
+    sum = 0
+    for i in list:
+        sum = sum + i
+    return sum
 
+result = sum(numbers_list)
+print(result)
