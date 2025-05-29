@@ -13,7 +13,7 @@ def find(list):
 find(numbers_list)
 
 def sum(list):
-    sum = 0
+    sum = 1
     for i in list:
         sum = sum + i
     return sum
