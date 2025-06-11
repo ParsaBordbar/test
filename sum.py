@@ -1,3 +1,3 @@
-def sum(a, b) {
+def sum(a, b) :
+    print(f'{a} + {b} = {a+b}')
     return a + b
-}
