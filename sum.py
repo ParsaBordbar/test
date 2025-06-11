@@ -1,3 +1,3 @@
-def sum(a, b) :
-    print(f'{a} + {b} = {a+b}')
+def sum(a, b):
+    print("Branch Sum!!!!!")
     return a + b
